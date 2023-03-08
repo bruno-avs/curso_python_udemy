@@ -1,0 +1,10 @@
+https://selenium-python.readthedocs.io/waits.html#explicit-waits
+https://www.selenium.dev/pt-br/documentation/webdriver/waits/
+https://www.selenium.dev/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.wait.html#module-selenium.webdriver.support.wait
+https://selenium-python.readthedocs.io/api.html#selenium.webdriver.support.expected_conditions.url_changes
+
+https://www.youtube.com/watch?v=xM8sNio2NkA&
+ab_channel=EduardoMendes
+https://www.youtube.com/watch?v=0xiiTqPkcc8&list=TLPQMjAxMjIwMjKu5ko8SQbmMA&index=12&ab_channel=AndersonFabianoDums
+
+https://docs.python.org/3/library/pathlib.html

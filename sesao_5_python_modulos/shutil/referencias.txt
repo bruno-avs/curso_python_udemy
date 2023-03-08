@@ -1,0 +1,9 @@
+doc python => https://docs.python.org/3/library/shutil.html
+
+acervo lima:
+shutil.copyfileobj() => https://acervolima.com/modulo-shutil-em-python/
+shutil.copyfile() => https://acervolima.com/python-metodo-shutil-copyfile/
+shutil.copy() => https://acervolima.com/python-metodo-shutil-copy/
+shutil.copy2() => https://acervolima.com/python-metodo-shutil-copy2/
+shutil.copystat() => https://acervolima.com/python-metodo-shutil-copystat/
+shutil.copytree() => https://acervolima.com/python-metodo-shutil-copytree/
