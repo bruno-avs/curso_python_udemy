@@ -8,7 +8,6 @@ class Telephone:
         self.model = model
         self.RAM = RAM
 
-
     def turn_on(self):
         print(f'Ligando {self.model}....')
 
@@ -26,4 +25,4 @@ class Telephone:
             self.switched_on = False
 
 
-Telephone('skakd', 'sasd', 'sdha')
+Telephone('apple', 'iphone 11', '8gb')
