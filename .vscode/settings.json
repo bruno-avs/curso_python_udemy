@@ -1,0 +1,44 @@
+{
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "miramac.node.terminalMode": true,
+    "workbench.colorTheme": "Dracula",
+    "workbench.preferredDarkColorTheme": "Tomorrow Night Blue",                             
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.rulers": [80, 120],
+    "cSpell.language": "en, pt-br",
+    "cSpell.autoFormatConfigFile": true,
+
+    "python.formatting.autopep8Args": [
+        "--indent-size=4",
+        "--max-line-length=80"
+    ],
+    
+    "code-runner.runInTerminal": true,
+    "python.linting.mypyEnabled": true,
+    "python.testing.unittestEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true
+    },
+    "workbench.statusBar.visible": true,
+    "editor.renderWhitespace": "all",
+    "jupyter.askForKernelRestart": false,
+    "workbench.editorAssociations": {
+        "*.zip": "default",
+        "*.rar": "default"
+    },
+    "window.zoomLevel": 1,
+    "explorer.compactFolders": false,
+    "code-runner.executorMap": {
+        "python": "clear ; python -u"
+    },
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "git.autofetch": true,
+    "python.analysis.typeCheckingMode": "basic",
+}

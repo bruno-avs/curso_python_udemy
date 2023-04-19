@@ -1,0 +1,51 @@
+Algoritmo do gerador e validador de CPF.
+
+1 - Criar o validador.
+    1 - limpe o CPF, tire caracteres indevidos e deixe só os números.
+    2 - checar se o cpf tem 11 números.
+    3 - checar se o cpf passado não é uma sequencia (não deve ser).
+    3 - gerar o primeiro dígito.
+        - peque os 9 primeiros dígito e multiplique ele por uma sequencia 
+        decremente que começa em 10 e termina em 2.
+        - depois some todas as multiplicações.
+
+        ex: 488.611.340-09 -> 488.611.340
+            _____ _____ _____ _____ _____ _____ _____ _____ _____
+           |  4  |  8  |  8  |  6  |  1  |  1  |  3  |  4  |  0  |
+           | 10  |  9  |  8  |  7  |  6  |  5  |  4  |  3  |  2  | 
+            _____ _____ _____ _____ _____ _____ _____ _____ _____
+           | 40  | 72  | 64  | 42  |  6  |  5  | 12  | 12  |  0  | --> 253
+           
+        - com a soma em mãos, use a formula: 
+            11 - (253 % 11) = 11 -> 11 maior que 10 então é 0.
+        - se o resultado da formula for maior que 10 o primeiro dígito sera 0
+        - se o resultado for menor ou igual a 9, o resultado sera o dígito
+
+    4 - gerar o segundo dígito.
+        - pra gerar o segundo dígito a lógica é parecida, basta pegar o primeiro
+        dígito gerador e adicionar na conta.
+        - a diferença é que agora ao invés de multiplicar regredidamente de 10
+        até 2 você tera que multiplicar de 11 até 2.
+
+        ex: 488.611.340-0
+            _____ _____ _____ _____ _____ _____ _____ _____ _____ _____
+           |  4  |  8  |  8  |  6  |  1  |  1  |  3  |  4  |  0  |  0  | 
+           | 11  |  10 |  9  |  8  |  7  |  6  |  5  |  4  |  3  |  2  |
+            _____ _____ _____ _____ _____ _____ _____ _____ _____ _____
+           | 40  | 72  | 64  | 42  |  6  |  5  | 12  | 12  |  0  |  0  |--> 288
+
+           11 - (288 % 11) = 9
+
+    5 - verificar se os dígitos batem.
+        - com os cálculos feitos é so verificar se os dois dígito finais batem.
+          CPF anterior -> 488.611.340-09
+          CPF gerado   -> 488.611.340-09
+
+2 - criar o gerador de CPF.
+    1 - é preciso criar uma sequencia de 8 números aleatórios, o nono dígito é
+    referente ao estado emitidor do CPF.
+    2 - é preciso gerar os dois últimos dígito usando a formula mostrada
+    anteriormente, multiplicar 10 a 2 os nove primeiros dígito, pegar a soma das
+    multiplicações e usar a formula, refazer a multiplicação acrescentando o dí-
+    gito gerado anteriormente multiplicando de 11 até 2, usar a formula de novo
+    e verificar se os dígitos batem.

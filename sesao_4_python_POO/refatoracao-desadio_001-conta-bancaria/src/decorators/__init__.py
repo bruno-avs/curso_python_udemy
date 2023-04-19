@@ -1,0 +1,1 @@
+from decorators.magical_methods import MagicalMethods
