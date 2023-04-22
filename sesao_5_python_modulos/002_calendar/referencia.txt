@@ -1,0 +1,5 @@
+Documentação python oficial
+   https://docs.python.org/3/library/calendar.html
+
+Outra Documentação
+   https://ealexbarros.medium.com/utilizando-a-biblioteca-calendar-em-python-c75e32065663
