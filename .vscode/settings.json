@@ -41,4 +41,7 @@
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "git.autofetch": true,
     "python.analysis.typeCheckingMode": "basic",
+    "cSpell.words": [
+        "pytz"
+    ],
 }

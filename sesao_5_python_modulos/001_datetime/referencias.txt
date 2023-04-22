@@ -1,0 +1,14 @@
+DOC oficial sobre o modulo datetime
+   https://docs.python.org/3/library/datetime.html
+
+DOC sobre o formato iso
+   https://pt.wikipedia.org/wiki/ISO_8601
+
+DOC lista de timezones 
+   https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+DOC explicação de como funciona os fuso horários
+   https://pt.wikipedia.org/wiki/Fuso_hor%C3%A1rio
+
+DOC ralativetimedelta documentação
+   https://dateutil.readthedocs.io/en/stable/relativedelta.html
