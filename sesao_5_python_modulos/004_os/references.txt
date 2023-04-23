@@ -1,0 +1,6 @@
+Documentação oficial do modulo os
+   https://docs.python.org/pt-br/3/library/os.html
+Documentação do Python Progressivo sobre o modulo os
+   https://www.pythonprogressivo.net/2018/10/Endereco-Caminho-path-Criar-Arquivo-Diretorio-Pasta-modulo-os.html
+Documentação oficial do modulo os.path
+   https://docs.python.org/3/library/os.path.html

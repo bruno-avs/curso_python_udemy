@@ -1,0 +1,2 @@
+documentação oficial locale
+   https://docs.python.org/pt-br/3.8/library/locale.html#:~:text=O%20m%C3%B3dulo%20locale%20abre%20o,onde%20o%20software%20%C3%A9%20executado.

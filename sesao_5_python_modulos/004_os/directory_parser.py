@@ -1,13 +1,18 @@
 import os
-path = r"\User\Documentos\Curso-de-python"
+
+path = r"D:\User\Documentos\python\curso_python_udemy\sesao_5_python_modulos\004_os"
+"""
+ele lista tudo oque esta no diretório do caminho especificado,
+mostrando algumas informações a mais
+"""
 
 
 def format_size(file_in_bytes):
     base = 1024
     kb = base
-    mb = base ** 2
-    gb = base ** 3
-    tb = base ** 4
+    mb = base**2
+    gb = base**3
+    tb = base**4
 
     format_abbr: str = ""
 

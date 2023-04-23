@@ -1,0 +1,1 @@
+os.makedirs(os.path.join(ABS_PATH, "new_folder-mekedirs"))
