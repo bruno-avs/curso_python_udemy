@@ -6,8 +6,8 @@ import os
 # se o destino ja existir, ele será substituído pelo arquivo de origem, caso
 # contrario, um novo arquivo sera criado
 
-src_folder = os.path.abspath('pasta_text_1')
-destiny_folder = os.path.abspath('pasta_text_2')
+src_folder = 'pasta_text_1'
+destiny_folder = 'pasta_text_2'
 
 src_file = "file_text_1.txt"
 destiny_file = "file_text_2.txt"

@@ -18,7 +18,7 @@ file_2 = open(destiny_full_path, "w")
 # você precisa fornecer a função copyfileobj um objeto de arquivo de leitura
 # e um objeto de arquivo de escrita
 
-path_copy_file = shutil.copyfileobj(file_1, file_2, 1)
+shutil.copyfileobj(file_1, file_2, 1)
 
 file_1.close()
 file_2.close()
