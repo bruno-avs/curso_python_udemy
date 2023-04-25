@@ -1,16 +1,20 @@
 from typing import Sequence, Any, Optional
+from pathlib import Path
 import csv
-file_name = "user_data.csv"
+
+FILE_NAME = "user_data.csv"
+ABS_PATH = Path(__file__).parent
+PATH_TO_FILE = ABS_PATH / FILE_NAME
+
 # lendo o arquivo com reader
-with open(file_name, newline="") as fl:
-    fl_reader = csv.reader(
-        fl, dialect="excel", skipinitialspace=True, strict=True)
+with open(PATH_TO_FILE, newline="", encoding="utf-8") as fl:
+    fl_reader = csv.reader(fl, dialect="excel", skipinitialspace=True, strict=True)
 
     for row in fl_reader:
         print(row)
 
 # lendo o arquivo com DictReader
-with open(file_name, newline="") as fl:
+with open(PATH_TO_FILE, newline="", encoding="utf-8") as fl:
     names: Optional[Sequence[str]] = None
     key_name: str | None = None
     value_name: str | None = "Sem valor"
@@ -26,11 +30,14 @@ with open(file_name, newline="") as fl:
         print(row)
 
 # escrevendo em arquivos
-with open(file_name, newline="") as csvfile:
+with open(PATH_TO_FILE, newline="", encoding="utf-8") as csvfile:
     csv_datas = csv.reader(csvfile, skipinitialspace=True)
     csv_datas = list(csv_datas)
 
-with open("user_data_02.csv", "w", newline="") as csvfile:
+FILE_NAME_2 = "user_data_02.csv"
+PATH_TO_FILE_2 = ABS_PATH / FILE_NAME_2
+
+with open(PATH_TO_FILE_2, "w", newline="", encoding="utf-8") as csvfile:
     dialect = "excel"
     delimiter = ","
     quotechar = '"'
@@ -45,8 +52,5 @@ with open("user_data_02.csv", "w", newline="") as csvfile:
     )
 
     for row in csv_datas:
-        fmt_row = [
-            value.title() if value.isalpha() else value
-            for value in row
-        ]
+        fmt_row = [value.title() if value.isalpha() else value for value in row]
         csvwriter.writerow(fmt_row)
