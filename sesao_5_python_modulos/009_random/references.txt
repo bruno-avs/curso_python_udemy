@@ -1,0 +1,6 @@
+documentação oficial
+   https://docs.python.org/3/library/random.html
+
+documentação da W3school
+   https://www.w3schools.com/python/module_random.asp
+ 
