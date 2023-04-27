@@ -1,0 +1,4 @@
+Ola $name, aqui esta o relatório sobre sua divida com a gente:
+   O valor inicial é de: $initial_value.
+   O valor atual com juros é de: $final_value.
+Estamos esperando o seu pagamento que tem data de vencimento para $date.

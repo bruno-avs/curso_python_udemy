@@ -1,0 +1,5 @@
+doc oficial
+   https://docs.python.org/pt-br/3/library/string.html
+   
+doc real python
+   https://realpython.com/python-modulo-string-formatting/
