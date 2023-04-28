@@ -14,7 +14,13 @@ import json
 import os
 
 """
-Mostrarei aqui como enviar email com python utilizando o servidor SMTP
+Mostrarei aqui como enviar email com python utilizando o servidor SMTP.
+certifique-se em ter uma conta no gmail, com uma senha de app valida
+para o envio dos emails via código.
+
+link de como fazer.
+    https://support.google.com/accounts/answer/185833?hl=pt-BR
+
 """
 
 ABS_PATH = Path(__file__).parent.parent
