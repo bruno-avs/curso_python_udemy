@@ -42,6 +42,8 @@
     "git.autofetch": true,
     "python.analysis.typeCheckingMode": "basic",
     "cSpell.words": [
+        "auds",
+        "confs",
         "pytz"
     ],
 }
