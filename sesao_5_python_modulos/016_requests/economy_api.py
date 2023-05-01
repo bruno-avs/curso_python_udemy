@@ -2,6 +2,8 @@ import requests
 from datetime import date
 import locale
 
+# fazendo uma requisição a uma api de economia
+
 url = "http://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL"
 
 response = requests.get(url)
@@ -16,6 +18,6 @@ for currency in currencys_data.values():
     low = locale.currency(float(currency["low"]))
 
     print(f'{currency["name"]} - {date_att.strftime("%d/%m/%y")}')
-    print(f'\tCotação atual: {current}')
-    print(f'\tMaior: {high}')
-    print(f'\tMenor: {low}')
+    print(f"\tCotação atual: {current}")
+    print(f"\tMaior: {high}")
+    print(f"\tMenor: {low}")
