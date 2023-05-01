@@ -1,0 +1,19 @@
+sobre opções do navegador de forma geral
+   https://www.selenium.dev/documentation/webdriver/drivers/options/
+   
+descrição das opções do webdriver w3c
+   https://w3c.github.io/webdriver/#capabilities
+
+opções e funcionalidades especificas do chrome
+   https://www.selenium.dev/documentation/webdriver/browsers/chrome/
+
+capacidade das opções do chrome
+   https://chromedriver.chromium.org/capabilities
+
+lista com os comandos para arguments
+   https://peter.sh/experiments/chromium-command-line-switches/
+
+Documentações
+   https://selenium-python.readthedocs.io/
+   https://www.selenium.dev/selenium/docs/api/py/api.html
+
