@@ -1,0 +1,21 @@
+o que são threads?
+- Uma thread é basicamente um fluxo de execução (uma tarefa). Isso significa 
+quem, em um programa ou processo normal, o código é executado de cima pra baixo 
+da esquerda pra direita passo a passo em um único fluxo (única thread) e em um
+único espaço de endereçamento.
+- Em determinadas ocasiões sera necessário executar códigos em um mesmo 
+programa simultaneamente, para conseguir isto utilizamos o módulo threading em 
+python.
+- O módulo threading permite executar funções em threads separadas em um 
+programa, ele é um módulo de nível superior sobre _thread de nível inferior.
+
+
+o que é uma thread?:
+- https://www.techtudo.com.br/noticias/2019/01/o-que-sao-threads-e-para-que-servem-em-um-processador.ghtml
+- https://canaltech.com.br/produtos/o-que-e-thread/
+
+doc oficial módulo threading:
+- https://docs.python.org/3/library/threading.html
+
+site descrevendo todo o módulo threading:
+- https://realpython.com/intro-to-python-threading/
