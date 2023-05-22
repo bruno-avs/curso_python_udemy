@@ -45,6 +45,7 @@
         "auds",
         "confs",
         "iframe",
+        "openpyxl",
         "pytz"
     ],
 }
