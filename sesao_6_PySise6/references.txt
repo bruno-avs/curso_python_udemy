@@ -1,0 +1,4 @@
+https://doc.qt.io/qtforpython-6/index.html
+
+
+https://www.pythonguis.com/tutorials/pyside6-creating-multiple-windows/
